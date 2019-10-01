@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\bin\Debug\GuessNumberLinhH.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\bin\Debug\GuessNumberLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\bin\Debug\GuessNumberLinhH.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.frmGuessNumber.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 3 (Decisions)\GuessNumberLinhH\GuessNumberLinhH\obj\Debug\GuessNumberLinhH.pdb
