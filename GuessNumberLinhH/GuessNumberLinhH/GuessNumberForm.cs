@@ -20,6 +20,10 @@ namespace GuessNumberLinhH
 {
     public partial class frmGuessNumber : Form
     {
+        int correctGuess;
+        Random randomNumberGenerator = new Random();
+        const int MIN_NUM = 1;
+        const int MAX_NUM = 10;
         public frmGuessNumber()
         {
             InitializeComponent();
@@ -27,18 +31,23 @@ namespace GuessNumberLinhH
             // hide the labels
             picMark.Hide();
             lblAnswer.Hide();
+
+            correctGuess = randomNumberGenerator.Next(MIN_NUM, MAX_NUM + 1);
         }
 
         private void BtnCheck_Click(object sender, EventArgs e)
         {
-            // declare constants and variables
-            const int NUMBER = 5;
+            // declare variables
             int guessNumber;
 
             // get the number from user's input from textbox
             guessNumber = int.Parse(txtGuess.Text);
 
-            if (guessNumber == NUMBER)
+            // assign the random number to the label
+            lblAnswer.Text = Convert.ToString(randomNumberGenerator);
+
+            // If... user gets the correct/wrong number display a label, picture and an image
+            if (guessNumber == correctGuess)
             {
                 lblAnswer.Show();
                 picMark.Show();
