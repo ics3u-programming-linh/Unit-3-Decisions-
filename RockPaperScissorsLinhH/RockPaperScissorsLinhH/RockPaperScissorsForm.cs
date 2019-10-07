@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*
+ * Created by: First Last
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #18 - Rock, Paper, Scissors
+ * This program allows user three of the following options, rock, paper or scissors
+ * then when they press on a button, the computer randomizes and selects an option and it will determine who wins.
+ * it will show a text whether user wins, lose or tied to the computer
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +64,7 @@ namespace RockPaperScissorsLinhH
             {
                 playerChoice = SCISSORS;
             }
-            else 
+            else
             {
                 playerChoice = 0;
             }
@@ -74,7 +84,7 @@ namespace RockPaperScissorsLinhH
             {
                 this.radComputerPaper.Checked = true;
             }
-            else 
+            else
             {
                 this.radComputerScissors.Checked = true;
             }
@@ -86,60 +96,63 @@ namespace RockPaperScissorsLinhH
 
                 if (playerChoice == SCISSORS)
                 {
-                    if (playerChoice == PAPER)
+                    // display user lose
+                    this.lblOutcome.Text = "You lose!";
+                }
+                else if (playerChoice == PAPER)
+                {
+                        // display user lose
+                        this.lblOutcome.Text = "You win!";
+                }
+                else if (playerChoice == ROCK)
+                {
+                        // display user tied
+                        this.lblOutcome.Text = "Tied!";
+                }
+            }
+
+                else if (computerChoice == PAPER)
+                {
+                    if (playerChoice == SCISSORS)
+                    {
+                        // display user wins
+                        this.lblOutcome.Text = "You Win!";
+                    }
+                    else if (playerChoice == PAPER)
+                    {
+                        // display user lose
+                        this.lblOutcome.Text = "You tied!";
+                    }
+                    else if (playerChoice == ROCK)
+                    {
+                        // display user lose
+                        this.lblOutcome.Text = "You lose!";
+                    }
+                }
+                else if (computerChoice == SCISSORS)
+                {
+                    if (playerChoice == ROCK)
+                    {
+                        // display user wins
+                        this.lblOutcome.Text = "You Win!";
+                    }
+                    else if (playerChoice == SCISSORS)
+                    {
+                        // display user tied
+                        this.lblOutcome.Text = "You tied!";
+                    }
+                    else if (playerChoice == PAPER)
                     {
                         // display user lose
                         this.lblOutcome.Text = "You lose!";
                     }
                     else if (playerChoice == ROCK)
                     {
-                        // display user tied
-                        this.lblOutcome.Text = "Tied!";
-                    }
-            }
-
-            else if (computerChoice == PAPER)
-            { 
-                if (playerChoice == SCISSORS)
-                    {
-                         // display user wins
-                         this.lblOutcome.Text = "You Win!";
-                    }
-                else if (playerChoice == PAPER)
-                    {
-                        // display user lose
-                        this.lblOutcome.Text = "You tied!";
-                    }
-                else if (playerChoice == ROCK)
-                    {
-                        // display user lose
-                        this.lblOutcome.Text = "You lose!";
-                    }
-            }
-            else if (computerChoice == SCISSORS)
-            {
-                if (playerChoice == ROCK)
-                   {
                         // display user wins
                         this.lblOutcome.Text = "You Win!";
-                   }
-                else if (playerChoice == SCISSORS)
-                   {
-                       // display user tied
-                       this.lblOutcome.Text = "You tied!";
-                   }
-                else if (playerChoice == PAPER)
-                   {
-                      // display user lose
-                      this.lblOutcome.Text = "You lose!";
-                   }
-                else if (playerChoice == ROCK)
-                   {
-                    // display user wins
-                     this.lblOutcome.Text = "You Win!";
-                   }
+                    }
                 }
             }
         }
     }
-}
+

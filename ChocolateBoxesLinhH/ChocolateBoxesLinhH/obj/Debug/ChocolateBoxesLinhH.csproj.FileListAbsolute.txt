@@ -1,0 +1,10 @@
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\bin\Debug\ChocolateBoxesLinhH.exe.config
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\bin\Debug\ChocolateBoxesLinhH.exe
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\bin\Debug\ChocolateBoxesLinhH.pdb
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.csprojAssemblyReference.cache
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.frmChocolateBoxes.resources
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.Properties.Resources.resources
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.csproj.GenerateResource.cache
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.csproj.CoreCompileInputs.cache
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.exe
+C:\Users\Linh_\Desktop\Unit-3-Decisions-\ChocolateBoxesLinhH\ChocolateBoxesLinhH\obj\Debug\ChocolateBoxesLinhH.pdb
