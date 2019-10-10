@@ -33,15 +33,16 @@ namespace FactorialLinhH
             factorialNumber = Convert.ToDouble(this.txtNumber.Text);
 
             // set the counter to 0
-
+            factorialCounter = 0;
             // multiply the counter by the next incremented number until it reaches the user's number
             do
             {
                 // increment the counter by 1
-
+                factorialCounter = factorialCounter + 1;
                 // list the counter number in the listbox for the user to see
-
+                lstFactorialNumbers.Items.Add("The counter number is:" + factorialCounter);
                 // multiply the counter by the answer
+                factorialNumber = factorialAnswer * factorialCounter;
             } while ();
 
             // convert the factorialAnswer to a String and insert it into the label
