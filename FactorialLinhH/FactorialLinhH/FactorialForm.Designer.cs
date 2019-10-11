@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.btnStart = new System.Windows.Forms.Button();
-            this.lstFactorialNumbers = new System.Windows.Forms.ListBox();
+            this.lstFactorial = new System.Windows.Forms.ListBox();
             this.lblNumber = new System.Windows.Forms.Label();
             this.txtNumber = new System.Windows.Forms.TextBox();
-            this.lblFactorialAnswer = new System.Windows.Forms.Label();
+            this.lblAnswer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(256, 147);
+            this.btnStart.Location = new System.Drawing.Point(321, 147);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(134, 40);
             this.btnStart.TabIndex = 0;
@@ -45,48 +45,51 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
-            // lstFactorialNumbers
+            // lstFactorial
             // 
-            this.lstFactorialNumbers.FormattingEnabled = true;
-            this.lstFactorialNumbers.Location = new System.Drawing.Point(190, 203);
-            this.lstFactorialNumbers.Name = "lstFactorialNumbers";
-            this.lstFactorialNumbers.Size = new System.Drawing.Size(250, 160);
-            this.lstFactorialNumbers.TabIndex = 2;
+            this.lstFactorial.FormattingEnabled = true;
+            this.lstFactorial.Location = new System.Drawing.Point(278, 212);
+            this.lstFactorial.Name = "lstFactorial";
+            this.lstFactorial.Size = new System.Drawing.Size(250, 160);
+            this.lstFactorial.TabIndex = 2;
             // 
             // lblNumber
             // 
             this.lblNumber.AutoSize = true;
-            this.lblNumber.Location = new System.Drawing.Point(163, 92);
+            this.lblNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumber.Location = new System.Drawing.Point(217, 94);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(82, 13);
+            this.lblNumber.Size = new System.Drawing.Size(223, 33);
             this.lblNumber.TabIndex = 4;
             this.lblNumber.Text = "Enter a number:";
             // 
             // txtNumber
             // 
-            this.txtNumber.Location = new System.Drawing.Point(276, 92);
+            this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumber.Location = new System.Drawing.Point(460, 92);
             this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtNumber.Size = new System.Drawing.Size(166, 38);
             this.txtNumber.TabIndex = 5;
             // 
-            // lblFactorialAnswer
+            // lblAnswer
             // 
-            this.lblFactorialAnswer.AutoSize = true;
-            this.lblFactorialAnswer.Location = new System.Drawing.Point(201, 227);
-            this.lblFactorialAnswer.Name = "lblFactorialAnswer";
-            this.lblFactorialAnswer.Size = new System.Drawing.Size(81, 13);
-            this.lblFactorialAnswer.TabIndex = 6;
-            this.lblFactorialAnswer.Text = "factorial answer";
+            this.lblAnswer.AutoSize = true;
+            this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswer.Location = new System.Drawing.Point(250, 387);
+            this.lblAnswer.Name = "lblAnswer";
+            this.lblAnswer.Size = new System.Drawing.Size(205, 31);
+            this.lblAnswer.TabIndex = 6;
+            this.lblAnswer.Text = "factorial answer";
             // 
             // frmFactorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblFactorialAnswer);
+            this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.txtNumber);
             this.Controls.Add(this.lblNumber);
-            this.Controls.Add(this.lstFactorialNumbers);
+            this.Controls.Add(this.lstFactorial);
             this.Controls.Add(this.btnStart);
             this.Name = "frmFactorial";
             this.Text = "Factorial by Linh H";
@@ -98,10 +101,10 @@
         #endregion
 
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.ListBox lstFactorialNumbers;
         private System.Windows.Forms.Label lblNumber;
         private System.Windows.Forms.TextBox txtNumber;
-        private System.Windows.Forms.Label lblFactorialAnswer;
+        private System.Windows.Forms.Label lblAnswer;
+        private System.Windows.Forms.ListBox lstFactorial;
     }
 }
 
