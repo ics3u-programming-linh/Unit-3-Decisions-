@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: Oct 10, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day 22 - Perfect Squares
+ * This program...calculates the perfect squares and display the answers
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
