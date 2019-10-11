@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WalkingManLinhH.cs">
+    <Compile Include="WalkingManForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WalkingManLinhH.Designer.cs">
-      <DependentUpon>WalkingManLinhH.cs</DependentUpon>
+    <Compile Include="WalkingManForm.Designer.cs">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
     </Compile>
     <Compile Include="WalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,9 +62,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="WalkingManLinhH.resx">
-      <DependentUpon>WalkingManLinhH.cs</DependentUpon>
+    <EmbeddedResource Include="WalkingManForm.resx">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk7.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk8.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources\walk10.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
