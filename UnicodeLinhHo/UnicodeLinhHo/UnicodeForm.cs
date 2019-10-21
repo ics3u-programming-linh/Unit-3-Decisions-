@@ -28,12 +28,18 @@ namespace UnicodeLinhHo
         private void BtnStart_Click(object sender, EventArgs e)
         {
             // declare local variables
-            double 
-    
-            int 
-            // declare string and counter variables
+            String letterValue;
+            int letterCounter;
+
             // clear the items in the listbox
+            this.lstUnicode.Items.Clear();
+
             // create loop to convert each number
+            for (letterCounter = 1; letterCounter <= letterValue; letterCounter++)
+            {
+                // list the counter value i teh listbox for the user to see
+                this.lstUnicode
+            }
                 // convert the counter to unicode leter
                 // add letter with its value to the listbox
 

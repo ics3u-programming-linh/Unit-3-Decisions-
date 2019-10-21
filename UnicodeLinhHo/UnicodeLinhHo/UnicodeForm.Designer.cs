@@ -33,6 +33,14 @@
             lstUnicode = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
+            // lstUnicode
+            // 
+            lstUnicode.FormattingEnabled = true;
+            lstUnicode.Location = new System.Drawing.Point(214, 170);
+            lstUnicode.Name = "lstUnicode";
+            lstUnicode.Size = new System.Drawing.Size(204, 160);
+            lstUnicode.TabIndex = 1;
+            // 
             // btnStart
             // 
             this.btnStart.Location = new System.Drawing.Point(241, 88);
@@ -42,14 +50,6 @@
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.BtnStart_Click);
-            // 
-            // lstUnicode
-            // 
-            lstUnicode.FormattingEnabled = true;
-            lstUnicode.Location = new System.Drawing.Point(214, 170);
-            lstUnicode.Name = "lstUnicode";
-            lstUnicode.Size = new System.Drawing.Size(204, 160);
-            lstUnicode.TabIndex = 1;
             // 
             // frmUnicode
             // 
