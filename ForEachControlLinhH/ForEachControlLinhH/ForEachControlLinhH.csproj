@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE2CCB37-2FCD-489D-A14E-47911AF391A7}</ProjectGuid>
+    <ProjectGuid>{46E18395-0406-4BE9-ABCD-A0A985318607}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>UnicodeLinhHo</RootNamespace>
-    <AssemblyName>UnicodeLinhHo</AssemblyName>
+    <RootNamespace>ForEachControlLinhH</RootNamespace>
+    <AssemblyName>ForEachControlLinhH</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnicodeForm.cs">
+    <Compile Include="ForEachControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UnicodeForm.Designer.cs">
-      <DependentUpon>UnicodeForm.cs</DependentUpon>
+    <Compile Include="ForEachControlForm.Designer.cs">
+      <DependentUpon>ForEachControlForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Unicode.cs" />
+    <Compile Include="ForEachControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ForEachControlForm.resx">
+      <DependentUpon>ForEachControlForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UnicodeForm.resx">
-      <DependentUpon>UnicodeForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
