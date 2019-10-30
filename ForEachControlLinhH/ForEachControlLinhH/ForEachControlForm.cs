@@ -3,7 +3,7 @@
  * Created on: October 22 2019
  * Created for: ICS3U Programming
  * Daily Assignment – Day #27 - Control Objects
- * This program...changes colours
+ * This program...changes the colours of a button and label
 */
 using System;
 using System.Collections.Generic;

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: october 23rd, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #28 - Numbers Nested Loops
+ * This program...displays unicode of capital 
+ * letters and lowercase letters from A-Z.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,7 +33,7 @@ namespace NestedLoopsLinhH
             int lowerCounter;
 
             string capital;
-            string lowercase;
+            string lowerCase;
 
             // clear listbox
             this.lstAlphabets.Items.Clear();
@@ -32,15 +41,17 @@ namespace NestedLoopsLinhH
             // loop throught the CAPITAL alphabets from 65 to 90
             for (capitalCounter = 65; capitalCounter <= 90; capitalCounter++)
             {
+                 // convert the capital counter to unicode letter
+                 capital = Char.ConvertFromUtf32(capitalCounter);
+
                 // for each of the lower alphabets, loop through 97 to 122
                 for (lowerCounter = 97; lowerCounter <= 122; lowerCounter++)
                 {
-                    // convert the lower and capital counter to unicode letter
-                    capital = Char.ConvertFromUtf32(capitalCounter);
-                    lowercase = Char.ConvertFromUtf32(lowerCounter);
+                    // convert the lowerCounter to unicode letter
+                    lowerCase = Char.ConvertFromUtf32(lowerCounter);
 
                     // display in the listbox
-                    this.lstAlphabets.Items.Add(capitalCounter + " -> " + lowerCounter);
+                    this.lstAlphabets.Items.Add(capital + " -> " + lowerCase);
                 }
             }
         }
