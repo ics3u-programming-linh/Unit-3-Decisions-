@@ -87,5 +87,10 @@ namespace WalkingManLinhH
                 Thread.Sleep(100);
             }
         }
+
+        private void PicMan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

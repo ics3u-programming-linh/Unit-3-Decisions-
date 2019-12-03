@@ -53,6 +53,7 @@
             this.picMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picMan.TabIndex = 1;
             this.picMan.TabStop = false;
+            this.picMan.Click += new System.EventHandler(this.PicMan_Click);
             // 
             // frmWalkingMan
             // 
